@@ -1,0 +1,56 @@
+.link-dark {
+  color: #4b81de !important;
+}
+
+nav ul {
+  font-size: 18px;
+}
+
+nav {
+  background-color: #f7f7f7;
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  width: 100%;
+  -webkit-box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.54);
+  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.422);
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav i {
+  margin: 5px;
+}
+
+.btn-registrarme {
+  color: white;
+  background: #8476fb;
+}
+
+.btn-registrarme:hover {
+  border: 1px solid #8476fb;
+  color: #8476fb;
+}
+
+.btn-inicio {
+  background: #4a87ee;
+  color: white;
+}
+
+.btn-inicio:hover {
+  border: 1px solid #4a87ee;
+  color: #4a87ee;
+}
+
+.inicio-sesion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inicio-sesion p {
+  font-size: larger;
+  margin: 0;
+}

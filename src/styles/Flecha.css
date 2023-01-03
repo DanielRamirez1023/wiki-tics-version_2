@@ -1,0 +1,16 @@
+.banner .fa-sharp {
+  font-size: 100px;
+  animation: rebote 1.5s infinite linear;
+}
+
+@keyframes rebote {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

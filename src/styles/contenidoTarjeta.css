@@ -1,0 +1,51 @@
+main {
+  background: white;
+  padding: 12%;
+}
+
+main .contenido {
+  display: flex;
+  gap: 3%;
+  flex-wrap: wrap;
+}
+
+main .contenido .informacion {
+  width: 40%;
+}
+
+main .beneficios,
+.conocimientos {
+  margin-top: 5%;
+  width: 45%;
+}
+
+main ul {
+  list-style: none;
+}
+
+main .documentacion ul li a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #8376fb;
+}
+
+main .instaladores ul {
+  display: flex;
+}
+main .instaladores ul li i {
+  font-size: 50px;
+}
+
+main .instaladores ul li a {
+  color: black;
+  margin: 10px;
+}
+
+main .contenido-b {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .contenido-b .cursos ul a {
+  margin: 0 5px;
+}

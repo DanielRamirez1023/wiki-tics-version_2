@@ -1,0 +1,24 @@
+.tarjetas {
+  background: #a59cfc;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.white {
+  background: #f3f4f5;
+}
+
+.seccion-tarjetas {
+  background: #f3f4f5;
+  padding-bottom: 4%;
+}
+
+.seccion-tarjetas h1 {
+  padding: 3% 0;
+}
+
+.seccion-tarjetas i {
+  margin: 20px;
+}

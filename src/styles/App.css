@@ -1,0 +1,63 @@
+body {
+  margin-top: 60px;
+  background-color: #8376fbb8;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttoncito {
+  margin-top: 6%;
+  min-width: 300px;
+  min-height: 60px;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #85399f;
+  background: #f4f1f5;
+  background: linear-gradient(
+    90deg,
+    rgb(237, 233, 239) 0%,
+    rgb(230, 227, 232) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(200, 79, 209, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  outline: none;
+  cursor: none;
+  position: relative;
+  padding: 10px;
+}
+
+.texto-descriptivo p {
+  margin: 5%;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  padding: 3%;
+  font-size: 18px;
+  border: 7px dashed white;
+  text-shadow: 1px 2px #999;
+}
+
+.texto-descriptivo {
+  margin: 4% 30%;
+}
+
+.apartado-tarjetas {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
